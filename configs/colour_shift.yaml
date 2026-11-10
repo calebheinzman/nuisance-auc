@@ -1,0 +1,7 @@
+cap: 4000
+corpora:
+- AFB__internal_81
+- Kaggle__local_128
+- pcam
+- malaria
+- Wellgen__local_128

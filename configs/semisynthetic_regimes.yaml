@@ -1,0 +1,10 @@
+n_rep: 10
+cap: 4000
+corpora:
+- Kaggle__local_128
+- pcam
+- malaria
+- AFB__internal_81
+- Wellgen__local_128
+seed: 4500
+table: semisynthetic_regimes_stable

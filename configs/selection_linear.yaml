@@ -1,0 +1,5 @@
+alphas: [2.0, 3.0]
+ns: [1000, 2000]
+n_rep: 12
+cap: 4000
+corpora: [Kaggle__local_128, pcam, malaria, AFB__internal_81, Wellgen__local_128]

@@ -1,0 +1,12 @@
+corpora:
+- Kaggle__local_128
+- pcam
+- malaria
+- AFB__internal_81
+- Wellgen__local_128
+cap: 4000
+n_draw: 50
+skip_sim: false
+skip_real_floor: false
+skip_a: true
+table: symmetry_floor

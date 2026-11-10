@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nuisance-auc"
+version = "1.0.0"
+description = "Shortcut-adjusted AUC under nuisance-model misspecification: theory, simulations and pathology experiments."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "scipy>=1.11",
+  "scikit-learn==1.6.1",
+  "scikit-image>=0.22",
+  "pyyaml>=6.0",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+images = ["torch>=2.2", "torchvision", "timm", "open-clip-torch", "transformers", "pillow", "pyarrow"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+nuisauc = "nuisauc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "slow: full experiment reruns (minutes to hours)",
+  "data: needs cached image-derived inputs",
+]

@@ -1,0 +1,18 @@
+n_rep: 10
+cap: 4000
+corpora:
+- Kaggle__local_128
+- pcam
+- malaria
+- AFB__internal_81
+- Wellgen__local_128
+seed: 4400
+lam: 1.0
+deltas:
+- 0.0
+- 0.1
+- 0.2
+- 0.3
+- 0.5
+- 1.0
+table: semisynthetic_stable

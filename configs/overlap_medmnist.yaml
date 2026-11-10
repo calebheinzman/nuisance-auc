@@ -1,0 +1,8 @@
+corpora:
+- PathMNIST
+- BloodMNIST
+- Kaggle__local_128
+- AFB__internal_81
+- Wellgen__local_128
+cap: 8000
+n_rep: 5
