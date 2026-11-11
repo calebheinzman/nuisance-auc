@@ -1,4 +1,4 @@
-# nuisance-auc
+# Nuisance-AUC
 
 Code and results for *Propensity-Adjusted AUC under Nuisance-Model
 Misspecification*.
